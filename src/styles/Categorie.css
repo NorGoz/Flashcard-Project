@@ -1,0 +1,38 @@
+.categorie__item{
+    margin-top: 40px;
+    flex-basis: 30%;
+    height: 30vh;
+    box-shadow: 0 0 1em gray;
+    display: flex;
+    flex-direction: column;
+}
+.categorie__titleContainer{
+    flex-basis: 50%;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categorie_linkContainer{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categorie__title{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.categorie__link{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: royalblue;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+

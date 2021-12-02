@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+.app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  padding: 5px;
+  width: 100%;
+  background-color: royalblue;
+}
+.mainContent{
+  flex-grow: 1;
+  width: 80vw;
+  margin: 0 auto;
+  position: relative;
+}
+.footer{
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}

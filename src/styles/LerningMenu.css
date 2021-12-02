@@ -1,0 +1,45 @@
+.lerning{
+    height: 60vh;
+    width: 60vw;
+    text-align: center;
+    border: solid 5px royalblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.lerning__title{
+    font-size: 42px;
+    padding: 20px;
+}
+.lerning__txt{
+    font-size: 24px;
+    padding: 10px;
+}
+.conteinerForBtn{
+    display: flex;
+    justify-content: center;
+}
+.lerning__btn{
+    width: 200px;
+    font-weight: bold;
+    margin: 10px;
+    border:solid 2px royalblue ;
+    color: royalblue;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.3s;
+    
+}
+.lerning__btn:hover{
+    color: white;
+    border: white solid 2px;
+    background-color: royalblue;
+}
